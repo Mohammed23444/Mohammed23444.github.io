@@ -11,18 +11,23 @@
         </p>
         <h3>need a Vaca? here are our most targeted locations</h3>
         <form action="https://www.google.com/search" method="get">
-            <input name="q" autocomplete="off" list="countries" placeholder="some options" >
-            <datalist id="countries">
-               <option value="maldives">
-               <option value="norway">
-               <option value="philippines">
-               <option value="indonesia">
-               </option>
-            </datalist>
+            <select multiple size="1" id="countries">
+               <option value="Maldives">Maldives</option>
+               <option value="Japan">Japan</option>
+               <option value="philippines">philippines</option>
+               <option value="indonesia">indonesia</option>
+            </select>
             <h3>found your pick? <input type="radio" value="yes">yes<input type="radio" value="no">no</h3>
             <h4>here you can make your choice using google</h4>
         <form action="https://www.google.com/search" method="get">
-            <input autocomplete="off" autofocus placeholder="type here <3" name="q" type="text" required>
+            <input autocomplete="off" autofocus placeholder="type ur choice here <3" name="q" list="countries" required>
+            <datalist id="countries">
+                <option value="maldives">
+                <option value="norway">
+                <option value="philippines">
+                <option value="indonesia">
+                </option>
+             </datalist>
             <input type="submit">
         </form>
         <form action="Recommendations.html" method="get">
