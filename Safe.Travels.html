@@ -35,8 +35,14 @@
             <optgroup label="OTHER">
             </optgroup>
             </select>
-            <h3>found your pick? <input type="radio" value="yes">yes<input type="radio" value="no">no</h3>
-            <h3>here you can make your choice using google</h3>
+            <fieldset>
+            <legend><h3>found your pick?</h3></legend>
+            <input type="radio" value="yes">yes
+            <p>
+            <input type="radio" value="no">no
+            </p>
+            </fieldset>
+            <h3>Make your choice using google</h3>
         <form action="https://www.google.com/search" method="get">
             <input type="text" autocomplete="off" placeholder="type ur choice here <3" name="q" list="countries" required>
             <datalist id="countries">
@@ -48,8 +54,9 @@
              </datalist>
             <input type="submit">
         </form>
+        <hr>
         <form action="Recommendations.html" method="get">
-            <br><h3>click here for our Recommendations<input type="submit"></h3>
+        <br><h3>click here for our Recommendations<input type="submit"></h3>
         </form>
     </body>
 </html>
