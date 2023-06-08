@@ -112,13 +112,4 @@ nav ul li a {
     font-size: 18px;
     padding: 8px 30px;
   }
-  
-  /* Replace video source */
-  .vid::after {
-    content: "";
-    display: block;
-    padding-bottom: 56.25%;
-    background-image: url("https://drive.google.com/uc?export=download&id=1Y9scZfyPG7ZlcJ57Yx-nuWUONunERqyo");
-    background-size: cover;
-  }
 }
